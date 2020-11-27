@@ -244,16 +244,17 @@ span h3:hover{
     }
 
     .big_txt {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .name {
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .log {
-        font-size: 15px;
-        line-height: 25px;
+        width: 70%;
+        font-size: 17px;
+        line-height: 27px;
     }
 
     .button {
