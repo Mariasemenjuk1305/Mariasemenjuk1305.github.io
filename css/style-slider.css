@@ -1,0 +1,166 @@
+html,
+body{
+	height: 100%;
+	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+@font-face{
+    font-family: HindSiliguriRegular;
+    src: url(../fonts/HindSiliguri-Regular.ttf);
+}
+a{
+	text-decoration: none;
+}
+.pet-project{
+	background-color: rgba(173, 173, 169, 0.1);
+}
+p{
+	color: #36314b;
+	text-align: center;
+}
+.pet_title{
+	font-family: 'HindSiliguriRegular', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin:40px 0px 20px 0px;
+}
+.pet_title_info{
+	font-family: 'HindSiliguriRegular', sans-serif;
+	font-size: 20px;
+}
+.wrapper{
+	padding: 20px;
+	min-height: 100%;
+}
+
+
+.image-slider{
+	padding: 10px 0px 50px 0px;
+	max-width: 900px;
+}
+
+.image-slider__wrapper{
+	margin: 20px 0px;
+}
+
+.image-slider__slide{
+
+}
+
+.image-slider__image{
+	text-align: center;
+}
+
+.image-slider__image a p{
+	position: relative;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'HindSiliguriRegular', sans-serif;
+	color: rgb(231, 231, 227);
+	top: 260px;
+	background-color: rgba(85, 82, 124, 0.6);
+	padding: 10px;
+}
+.image-slider__image img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+/* Если слайдер находиться во флекс елементе, то флекс елементу нужно дать свойство min-width: 0; */
+
+
+/* Cтрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after{
+	color: #fff;
+	font-size: 80px;
+}
+
+/* Пагинация */
+.image-slider .swiper-pagination{
+	padding: 0 50px;
+	bottom: 0;
+}
+
+/* Буллеты */
+.image-slider .swiper-pagination-bullet{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	background-color: rgb(69, 64, 77);
+}
+
+/* Фракция */
+.image-slider .swiper-pagination-fraction{
+	font-size: 20px;
+	color: #fff;
+	padding: 0px 0px 20px 0px;
+}
+
+/* Прогрессбар */
+.image-slider .swiper-pagination-progressbar-fill{
+	background-color: #d34747;
+}
+
+/* Скрол */
+.image-slider .swiper-scrollbar-drag{
+	cursor: pointer;
+	background-color: #c91010;
+}
+
+/* Мультирядность */
+/* .image-slider{
+	height: 700px;
+}
+
+.image-slider .swiper-slide{
+	height: calc((100% - 30px) / 2 );
+	overflow: hidden;
+} */
+
+
+/* Вертикальный слайдер */
+/* .image-slider{
+	height: 700px;
+} */
+
+/* Эфект куб */
+/* .image-slider{
+	width: 500px;
+} */
+
+
+/* ============================================================ */
+/* Миниатюры превью */
+
+.image-mini-slider {
+}
+
+.image-mini-slider__wrapper {
+}
+
+.image-mini-slider__slide {
+	opacity: 0.2;
+	transition: opacity 0.3s ease 0s;
+}
+
+.image-mini-slider__slide.swiper-slide-thumb-active{
+	opacity: 1;
+}
+
+.image-mini-slider__image {
+	position: relative;
+	padding: 0px 0px 30% 0px;
+	cursor: pointer;
+}
+
+/* .image-mini-slider__image img{
+	object-fit: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0px;
+} */
