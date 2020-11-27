@@ -1,7 +1,4 @@
-@font-face {
-    font-family: rubikRegular;
-    src: url(../fonts/RubikMonoOne-Regular.ttf);
-}
+
 @font-face{
     font-family: HindSiliguriRegular;
     src: url(../fonts/HindSiliguri-Regular.ttf);
@@ -47,7 +44,6 @@ a{
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
-    
     display: inline-block;
     padding: 15px 20px;
     position: relative;
@@ -113,8 +109,8 @@ a{
 
 .log {
     width: 50%;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .but {
@@ -122,12 +118,13 @@ a{
 }
 
 .button {
-    width: 180px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     color: white;
-    background: linear-gradient(45deg, #a21af0 10%, #ff0072 40%);
+    background: linear-gradient(45deg, #584364 10%, #ff0072 40%);
     border: 1px solid rgba(148, 128, 240, 0.137);
     border-radius: 3px;
+    font:20px bold;
     font-family:  'HindSiliguriRegular', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -159,12 +156,13 @@ a{
 .about span {
     margin: 10px;
     font-family:  'HindSiliguriRegular', sans-serif;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 27px;
 }
 
 .name_main {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 .name_main:hover{
@@ -180,6 +178,7 @@ a{
 .skills span, .imgP span {
     margin: 10px;
     font-family:  'HindSiliguriRegular', sans-serif;
+    font-size: 20px;
 }
 span h3{
     font-weight: bold;
@@ -253,14 +252,14 @@ span h3:hover{
     }
 
     .log {
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 15px;
+        line-height: 25px;
     }
 
     .button {
-        width: 100px;
-        height: 30px;
-        font-size: 10px;
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
     }
 
     .main div {
@@ -269,6 +268,9 @@ span h3:hover{
 
     .skills div {
         width: 80%;
+    }
+    .skills span, .imgP span {
+        font-size: 20px;
     }
 
     .contact div {
